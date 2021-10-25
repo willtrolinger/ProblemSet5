@@ -1,0 +1,63 @@
+\documentclass{article} 
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{amsmath,amsfonts,amsthm}
+\usepackage[letterpaper, margin=1.25in]{geometry}
+\usepackage{fancyvrb}
+\usepackage{xcolor}
+
+
+
+\begin{document}
+
+\title{CS 2003 | Problem Set 5}
+\author{William Trolinger\\
+			ua709\\
+			Due: October , 2021
+			}
+\maketitle
+\begin{enumerate}
+	\item 
+\textbf{Notation:} $\textit{"x"}$ is the node to insert.
+\begin{algorithm}
+	\begin{algorithmic}[1]
+\Function{Cicular Linked List Insert}{}
+		
+		\If{head != null}
+			\State \textbf{x = head}
+		\If{tail.next == null}
+			\State \textbf{x = tail.next;}\\
+		\EndIf
+		\EndIf
+		\If{k $>$ A[mid]}
+			\State low $\leftarrow $ mid+1
+		\ElsIf {k $<$ A[mid]} 
+			\State high $\leftarrow $ mid-1
+		\Else
+			\State \textbf{System.out.print(mid);}
+		\EndIf
+\State The runtime of this algorithm is: \textbf{\textit{O(nlgn)}}
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+
+\item \textbf{Comparing and Contrasting time complexities}\\
+Reference Based \\
+insert\\
+delete\\
+search\\
+\\
+Array based\\
+insert\\
+delete\\
+search\\
+
+ \item 
+
+
+
+
+\end{enumerate}
+\end{document}
